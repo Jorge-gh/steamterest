@@ -1,0 +1,83 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divRegistro {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10vh;
+}
+
+.divTitulo {
+    text-align: start;
+    width: 100%;
+}
+
+.divInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divInputs input {
+    background-color: #f4e3e3;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.divInputs input::placeholder {
+    color: black;
+    font-weight: 500;
+}
+
+.divInputs input:focus {
+    outline: none;
+}
+
+.divBotones {
+    display: flex;
+    gap: 3px;
+}
+
+.btnIniciar {
+    width: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #ca3737;
+    background-color: transparent;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: background .3s ease-in-out;
+}
+
+.btnIniciar:hover {
+    background-color: #f4e3e3;
+}
+
+.btnRegistrarse {
+    width: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #ca3737;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: background .3s ease-in-out;
+}
+
+.btnRegistrarse:hover {
+    background-color: #9c0e0e;
+}

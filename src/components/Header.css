@@ -1,0 +1,67 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav div img{
+    width: 45px;
+}
+
+
+.btnExplorar{
+    text-decoration: none;
+    background-color: transparent;
+    color: #ca3737;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 100px;
+    text-align: center;
+    transition: background .3s ease-in-out;
+}
+
+.btnExplorar:hover{
+    background-color: #f4e3e3;
+}
+
+.btnLogIn{
+    text-decoration: none;
+    background-color: #ca3737;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 100px;
+    text-align: center;
+    transition: background .3s ease-in-out;
+}
+
+.btnLogIn:hover{
+    background-color: #9c0e0e;
+}
+
+.btnRegistro{
+    text-decoration: none;
+    background-color: #f4e3e3;
+    color: #ca3737;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 100px;
+    text-align: center;
+    transition: background .3s ease-in-out , color .3s ease-in-out;
+}
+
+.btnRegistro:hover{
+    background-color: #ca3737;
+    color: white;
+}
