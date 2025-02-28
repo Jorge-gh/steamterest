@@ -1,0 +1,9 @@
+.mainExplorar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 5vh;
+}

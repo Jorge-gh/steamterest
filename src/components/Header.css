@@ -3,13 +3,15 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    font-size: 15px;
+    flex-wrap: wrap;
 }
 
 nav div{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 nav div img{
@@ -64,4 +66,15 @@ nav div img{
 .btnRegistro:hover{
     background-color: #ca3737;
     color: white;
+}
+
+.navDiv2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px){
+    nav{
+        justify-content: center;
+    }
 }

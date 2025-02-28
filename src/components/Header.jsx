@@ -8,7 +8,7 @@ function Header() {
         <div>
             <Link to={'/'}><img src="./steamterest.png" alt="" /></Link>
         </div>
-        <div>
+        <div className='navDiv2'>
             <Link to={'/'} className='btnExplorar'>Explorar</Link>
             <Link to={'/login'} className='btnLogIn'>Log in</Link>
             <Link to={'/registro'} className='btnRegistro'>Registro</Link>
